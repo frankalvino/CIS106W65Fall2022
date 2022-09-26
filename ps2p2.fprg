@@ -1,0 +1,25 @@
+<?xml version="1.0"?>
+<flowgorithm fileversion="2.11">
+    <attributes>
+        <attribute name="name" value=""/>
+        <attribute name="authors" value="frank"/>
+        <attribute name="about" value=""/>
+        <attribute name="saved" value="2022-09-26 06:40:35 PM"/>
+        <attribute name="created" value="ZnJhbms7TEFQVE9QLUMxQlNKNENQOzIwMjItMDktMjY7MDY6MzY6NTQgUE07Mjg2OA=="/>
+        <attribute name="edited" value="ZnJhbms7TEFQVE9QLUMxQlNKNENQOzIwMjItMDktMjY7MDY6NDA6MzUgUE07MTsyOTcw"/>
+    </attributes>
+    <function name="Main" type="None" variable="">
+        <parameters/>
+        <body>
+            <declare name="lname" type="String" array="False" size=""/>
+            <declare name="hours" type="Real" array="False" size=""/>
+            <declare name="rate" type="Real" array="False" size=""/>
+            <declare name="gp" type="Real" array="False" size=""/>
+            <input variable="lname"/>
+            <input variable="hours"/>
+            <input variable="rate"/>
+            <assign variable="gp" expression="hours*rate"/>
+            <output expression="&quot;Your gross pay is $&quot; &amp; gp" newline="True"/>
+        </body>
+    </function>
+</flowgorithm>
